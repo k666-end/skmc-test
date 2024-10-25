@@ -115,11 +115,12 @@ footer p { font-size: 12px; line-height: 1em;}
 #main-img .main-img-heading-wrap h2 img { width:100%; }
 
 #contact { position:relative; }
-#contact::after { background: url(../images/contact_background.jpg) right top no-repeat; background-size: contain; content: ""; display: block; position:absolute; width: min(55.104vw,1058px); height: min(41.041vw,788px); }
-#contact.section-wrap { padding:20vw 0 10vw; }
+#contact::after { background: url(../images/contact_background.jpg) right top no-repeat; background-size: contain; content: ""; display: block; position:absolute; top: 0; right: 0; width: min(55.104vw,1058px); height: min(41.041vw,788px); z-index: 0; }
+#contact.section-wrap { padding:10vw 0 10vw; }
+#contact .section-inner-wrap-1000px { z-index: 1;}
 #contact .heading-wrap { text-align: left;}
-#contact .heading-wrap h2 { color: #000; font-size:min(8vw,60px); letter-spacing: 2px; line-height: 1; margin-bottom:16px; }
-#contact .contact-text { line-height: 2.4em; margin-bottom: 40px; }
+#contact .heading-wrap h2 { color: #000; font-size:min(8vw,60px); letter-spacing: 2px; line-height: 1.4; margin-bottom:16px; }
+#contact .contact-text { line-height: 2.8em; margin-bottom: 40px; }
 #contact .link-button a  { background-color: var(--link-color); border-radius: 50px; color:#fff; display: block; font-size:16px; line-height: 1; padding: 25px 0; text-align:center; position:relative; width:100%; max-width:480px; transition:.1s; text-decoration:none; }
 
 #detail { background: linear-gradient(to bottom, #0E2B54, #020F2F); color: #fff; position:relative; }
