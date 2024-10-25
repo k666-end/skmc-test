@@ -208,8 +208,8 @@ footer p { font-size: 12px; line-height: 1em;}
 
   #main-img { height:81vw; margin-top: 0; }
   #main-img::after { width: 200vw; height: 83.25vw; left: -19vw; z-index: 1; }
-  #main-img::before { background-color: rgba(0,0,0,.3); background-size: contain; content: ""; position: absolute; width: 100%; height: 100%; z-index: 2; }
-  #main-img .main-img-heading-wrap { position: relative; top: 14vw; right: auto; left: 4%; transform:none; width:90%; height:auto; }
+  #main-img::before { background-color: rgba(0,0,0,.1); background-size: contain; content: ""; position: absolute; width: 100%; height: 97.5%; z-index: 2; }
+  #main-img .main-img-heading-wrap { position: relative; top: 14vw; right: auto; left: 4%; transform:none; width:90%; height:auto; z-index: 3; }
   #contact::after { top: auto; bottom: -16vw; right: -8vw; width: 140%; height: 67.2vw;}
   #contact.section-wrap { padding:12vw 0 25vw; }
   #contact .content-wrap { display:block; }
