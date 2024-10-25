@@ -115,7 +115,7 @@ footer p { font-size: 12px; line-height: 1em;}
 #main-img .main-img-heading-wrap h2 img { width:100%; }
 
 #contact { position:relative; }
-#contact::after { background: url(../images/contact_background.jpg) right top no-repeat; background-size: contain; content: ""; position:absolute; width: min(110.2vw,2116px); height: min(82.083vw,1576px); }
+#contact::after { background: url(../images/contact_background.jpg) right top no-repeat; background-size: contain; content: ""; display: block; position:absolute; width: min(55.104vw,1058px); height: min(41.041vw,788px); }
 #contact.section-wrap { padding:20vw 0 10vw; }
 #contact .heading-wrap { text-align: left;}
 #contact .heading-wrap h2 { color: #000; font-size:min(8vw,60px); letter-spacing: 2px; line-height: 1; margin-bottom:16px; }
